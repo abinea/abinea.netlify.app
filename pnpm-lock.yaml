@@ -2,7 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify/json': ^2.2.24
+  '@types/node': ^18.14.0
   '@vitejs/plugin-vue': ^4.0.0
+  fs-extra: ^11.1.0
   typescript: ^4.9.3
   unocss: ^0.49.7
   unplugin-auto-import: ^0.14.3
@@ -15,6 +17,8 @@ specifiers:
 
 dependencies:
   '@iconify/json': 2.2.24
+  '@types/node': 18.14.0
+  fs-extra: 11.1.0
   unocss: 0.49.7_vite@4.1.2
   unplugin-auto-import: 0.14.3
   unplugin-icons: 0.15.3
@@ -26,7 +30,7 @@ dependencies:
 devDependencies:
   '@vitejs/plugin-vue': 4.0.0_vite@4.1.2+vue@3.2.47
   typescript: 4.9.5
-  vite: 4.1.2
+  vite: 4.1.2_@types+node@18.14.0
 
 packages:
 
@@ -583,6 +587,9 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: false
 
+  /@types/node/18.14.0:
+    resolution: {integrity: sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==}
+
   /@unhead/dom/1.0.22:
     resolution: {integrity: sha512-oqTHB6OgiH91grELZLQxxw17la86dUBiGz40fItaiE6ywIImCSGjid10IjH5VVifHSmLaQ08qq+s5HH0s/hZ4w==}
     dependencies:
@@ -759,7 +766,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.29.0
-      vite: 4.1.2
+      vite: 4.1.2_@types+node@18.14.0
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -771,7 +778,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.1.2
+      vite: 4.1.2_@types+node@18.14.0
       vue: 3.2.47
     dev: true
 
@@ -2514,7 +2521,7 @@ packages:
       jsdom: 20.0.3
       kolorist: 1.7.0
       prettier: 2.8.4
-      vite: 4.1.2
+      vite: 4.1.2_@types+node@18.14.0
       vue: 3.2.47
       vue-router: 4.1.6_vue@3.2.47
       yargs: 17.7.0
@@ -2525,7 +2532,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /vite/4.1.2:
+  /vite/4.1.2_@types+node@18.14.0:
     resolution: {integrity: sha512-MWDb9Rfy3DI8omDQySbMK93nQqStwbsQWejXRY2EBzEWKmLAXWb1mkI9Yw2IJrc+oCvPCI1Os5xSSIBYY6DEAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2550,6 +2557,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.14.0
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
