@@ -92,6 +92,9 @@ export default defineConfig({
 
 				md.use(TOC, {
 					includeLevel: [1, 2, 3],
+					listType: "ol",
+					containerClass: "toc",
+					containerHeaderHtml: `<h3 class="toc-container-header">Contents</h3>`,
 				})
 			},
 		}),

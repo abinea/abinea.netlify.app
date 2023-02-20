@@ -1,6 +1,5 @@
 ---
-title: 文章
-display: ""
+display: 文章
 ---
 
 <ListPosts />

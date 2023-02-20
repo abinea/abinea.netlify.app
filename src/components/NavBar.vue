@@ -12,8 +12,7 @@
       <div class="spacer" />
       <div class="right">
         <router-link to="/" title="Home">
-          <span class="lt-md:hidden">Home</span>
-          <div i-ri-screenshot-line class="md:hidden" />
+          <span class="lt-md:hidden ">Home</span>
         </router-link>
         <router-link to="/posts" title="Posts">
           <span class="lt-md:hidden">Posts</span>
@@ -21,10 +20,11 @@
         </router-link>
         <router-link to="/friends" title="Friends">
           <span class="lt-md:hidden">Friends</span>
-          <div i-ri-lightbulb-line class="md:hidden" />
+          <div i-ri-user-smile-line md:hidden />
         </router-link>
-        <router-link to="/talks" class="lt-md:hidden" title="Talks">
-          Talks
+        <router-link to="/talks" title="Talks">
+          <span class="lt-md:hidden">Talks</span>
+          <div i-ri-chat-poll-line md:hidden />
         </router-link>
         <!-- Others -->
         <ToggleTheme />

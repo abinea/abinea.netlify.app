@@ -12,7 +12,7 @@ onMounted(() => {
 
 </script>
 <template>
-  <div class="w-86ch m-auto">
+  <div class="max-w-86ch m-auto">
     <div id="waline"> </div>
   </div>
 </template>

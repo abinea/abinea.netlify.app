@@ -1,7 +1,7 @@
 .prose {
   color: var(--fg);
   max-width: 80ch;
-  font-size: 1.0625rem;
+  font-size: 1.03125rem;
   line-height: 1.75;
 }
 .prose [class~="lead"] {
@@ -133,15 +133,18 @@
   margin-top: 0.8571429em;
 }
 .prose code {
-  color: var(--fg-deep);
-  font-weight: 600;
-  font-size: 0.875em;
+  padding: .2em .4em;
+  margin: 0 .2em;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
 }
 .prose code::before {
-  content: "`";
+  content: none;
 }
 .prose code::after {
-  content: "`";
+  content: none;
 }
 .prose a code {
   color: #111827;
@@ -212,7 +215,11 @@
   padding-bottom: 0.5714286em;
   padding-left: 0.5714286em;
 }
+.prose li {
+  font-family: "Inter","PingFang SC","Monda";
+}
 .prose p {
+  font-family: "Inter","PingFang SC","Monda";
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }

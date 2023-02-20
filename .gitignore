@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
+pages/posts/test.md
 auto-imports.d.ts
 components.d.ts
