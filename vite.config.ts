@@ -30,7 +30,7 @@ export default defineConfig({
 		vue(),
 		UnoCss(),
 		AutoImport({
-			imports: ["vue", "vue-router"],
+			imports: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],
 		}),
 		Components({
 			dts: true,
