@@ -7,6 +7,7 @@ specifiers:
   '@types/markdown-it': ^12.2.3
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/node': ^18.14.0
+  '@types/nprogress': ^0.2.0
   '@unocss/reset': ^0.49.7
   '@vitejs/plugin-vue': ^4.0.0
   '@vueuse/core': ^9.13.0
@@ -21,6 +22,7 @@ specifiers:
   markdown-it-link-attributes: ^4.0.1
   markdown-it-shiki: ^0.8.0
   markdown-it-table-of-contents: ^0.6.0
+  nprogress: ^0.2.0
   typescript: ^4.9.3
   unocss: ^0.49.7
   unplugin-auto-import: ^0.14.3
@@ -40,6 +42,7 @@ dependencies:
   '@types/markdown-it': 12.2.3
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/node': 18.14.0
+  '@types/nprogress': 0.2.0
   '@unocss/reset': 0.49.7
   '@vueuse/core': 9.13.0_vue@3.2.47
   '@vueuse/head': 1.0.26_vue@3.2.47
@@ -53,6 +56,7 @@ dependencies:
   markdown-it-link-attributes: 4.0.1
   markdown-it-shiki: 0.8.0
   markdown-it-table-of-contents: 0.6.0
+  nprogress: 0.2.0
   unocss: 0.49.7_vite@4.1.2
   unplugin-auto-import: 0.14.3_@vueuse+core@9.13.0
   unplugin-icons: 0.15.3
@@ -705,6 +709,10 @@ packages:
 
   /@types/node/18.14.0:
     resolution: {integrity: sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==}
+
+  /@types/nprogress/0.2.0:
+    resolution: {integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==}
+    dev: false
 
   /@types/web-bluetooth/0.0.16:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
@@ -2448,6 +2456,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-key: 3.1.1
+    dev: false
+
+  /nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
     dev: false
 
   /nwsapi/2.2.2:
