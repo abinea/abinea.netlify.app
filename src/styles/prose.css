@@ -150,7 +150,7 @@
   color: #e5e7eb;
   overflow-x: auto;
   font-size: 0.875rem !important;
-  font-family: "JetBrains Mono" !important;
+  font-family: "JetBrains Mono";
   line-height: 1.7142857;
   margin-top: 1.7142857em;
   margin-bottom: 1.7142857em;
