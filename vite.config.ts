@@ -109,7 +109,7 @@ export default defineConfig({
 	},
 })
 
-export const slugify = (str: string): string => {
+function slugify(str: string): string {
 	const rControl = /[\u0000-\u001F]/g
 	const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'<>,.?/]+/g
 	return (

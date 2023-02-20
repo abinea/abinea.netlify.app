@@ -3,6 +3,7 @@ import "uno.css"
 import "./styles/main.css"
 import "./styles/markdown.css"
 import "./styles/prose.css"
+import "@waline/client/dist/waline.css"
 
 import App from "./App.vue"
 import autoRoutes from "pages-generated"
