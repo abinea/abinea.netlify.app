@@ -14,6 +14,6 @@ const hasCommentsPath = computed(() => {
 <template>
   <main class="px-7 py-10">
     <RouterView />
-    <Comments v-if="hasCommentsPath" />
+    <Comment v-if="hasCommentsPath" />
   </main>
 </template>

@@ -19,9 +19,15 @@ export default defineConfig({
 		presetUno(),
 		presetAttributify(),
 		presetWebFonts({
-			provider: "google",
+			// 默认是由Google Fonts提供，但是不稳定容易出错（挂梯？）
+			provider: "bunny", // "google","bunny","fontshare"
 			fonts: {
-				sans: ["Noto Serif SC"],
+				sans: [
+					"Inter",
+					"Noto Serif SC",
+					"PingFang SC",
+					"JetBrains Mono",
+				],
 			},
 		}),
 	],

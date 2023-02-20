@@ -27,7 +27,7 @@ export default defineConfig({
 		},
 	},
 	plugins: [
-		vue(),
+		vue({ include: [/\.vue$/, /\.md$/] }),
 		UnoCss(),
 		AutoImport({
 			imports: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],
