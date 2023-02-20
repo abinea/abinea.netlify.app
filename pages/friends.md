@@ -1,4 +1,5 @@
 ---
+title: "ABin's Periodicals - 友链"
 display: 友链
 ---
 

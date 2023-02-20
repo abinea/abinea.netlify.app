@@ -1,4 +1,5 @@
 ---
+title: "ABin's Periodicals - 首页"
 display: Hey 👋
 ---
 

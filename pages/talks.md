@@ -1,4 +1,5 @@
 ---
+title: "ABin's Periodicals - 留言板"
 display: 留言板
 ---
 
