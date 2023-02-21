@@ -2,7 +2,7 @@
   color: var(--fg);
   max-width: 80ch;
   font-size: 1.03125rem;
-  line-height: 1.75;
+  line-height: 1.45;
 }
 .prose [class~="lead"] {
   color: #4b5563;
@@ -88,16 +88,16 @@
   margin-bottom: 1.6em;
   padding-left: 1em;
 }
-.prose blockquote p:first-of-type::before {
+/* .prose blockquote p:first-of-type::before {
   content: open-quote;
 }
 .prose blockquote p:last-of-type::after {
   content: close-quote;
-}
+} */
 .prose h1 {
   color: var(--fg-deeper);
   font-weight: 800;
-  font-size: 2.25em;
+  font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -105,7 +105,7 @@
 .prose h2 {
   color: var(--fg-deep);
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -113,11 +113,11 @@
 .prose h3 {
   color: inherit;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.125em;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
   line-height: 1.6;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .prose h4 {
   color: inherit;
@@ -133,6 +133,7 @@
   margin-top: 0.8571429em;
 }
 .prose code {
+  font-family: 'JetBrains Mono', 'Input Mono', 'Fira Code', monospace;
   padding: .2em .4em;
   margin: 0 .2em;
   font-size: 85%;
