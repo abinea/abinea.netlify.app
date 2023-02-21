@@ -5,7 +5,7 @@
 }
 
 .prose .shiki {
-  font-family: 'DM Mono', 'Input Mono', 'Fira Code', monospace;
+  font-family: 'JetBrains Mono', 'Input Mono', 'Fira Code', monospace;
   font-size: 1.05em;
   line-height: 1.4;
   margin: 0.5em 0;

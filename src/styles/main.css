@@ -84,3 +84,11 @@ h2 + p > em:first-child {
 html:not(.dark) [img-dark] {
 	display: none;
 }
+
+
+@font-face {
+	font-family: "Webfont";
+	src: url("../assets/webfont.woff2");
+	font-weight: 400;
+	font-style: normal
+}

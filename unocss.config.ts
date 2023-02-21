@@ -22,7 +22,7 @@ export default defineConfig({
 			// 默认是由Google Fonts提供，但是不稳定容易出错（挂梯？）
 			provider: "google", // "google","bunny","fontshare"
 			fonts: {
-				sans: ["Inter", "Noto Serif SC", "Monda"],
+				sans: ["Webfont", "Noto Serif SC"],
 				mono: "JetBrains Mono",
 			},
 		}),
