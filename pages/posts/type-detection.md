@@ -1,6 +1,6 @@
 ---
 title: Javascript类型检测
-date: 2021-04-25T17:57:43.000+00:00
+date: 2021-04-25T17:57:43.000+08:00
 tag: JS
 duration: 8min
 ---

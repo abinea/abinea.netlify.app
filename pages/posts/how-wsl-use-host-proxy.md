@@ -1,7 +1,7 @@
 ---
 title: wsl2代理设置（使用宿主机v2ray）
 description: 关于我终于在wsl2使用宿主机的v2ray客户端代理连接上了github这件事及配置教程，后续使用逐渐完备了设置
-date: 2022-08-29T08:00:00.000+00:00
+date: 2022-08-29T08:00:00.000+08:00
 tag: Linux
 duration: 7min
 ---
@@ -40,7 +40,7 @@ generateResolvConf = false
 ```bash
 # network proxy
 export winip=$(ip route | grep default | awk '{print $3}')
-port=10811
+port=10811 # v2ray
 export proxy_http="http://${winip}:${port}"
 alias proxy='
     export HTTP_PROXY='${proxy_http}';
