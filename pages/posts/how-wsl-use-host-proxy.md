@@ -2,7 +2,7 @@
 title: wsl2代理设置（使用宿主机v2ray）
 description: 关于我终于在wsl2使用宿主机的v2ray客户端代理连接上了github这件事及配置教程，后续使用逐渐完备了设置
 date: 2022-08-29T08:00:00.000+00:00
-tags: WSL
+tag: Linux
 duration: 7min
 ---
 

@@ -1,9 +1,10 @@
 .prose {
   color: var(--fg);
   max-width: 80ch;
-  font-size: 1.03125rem;
+  font-size: 1.0625em;
   line-height: 1.45;
 }
+
 .prose [class~="lead"] {
   color: #4b5563;
   font-size: 1.25em;
@@ -493,4 +494,13 @@
 }
 .prose-sm > :last-child {
   margin-bottom: 0;
+}
+
+@media(max-width:768px){
+  .prose{
+    font-size: 0.9375em;
+  }
+  .prose pre code{
+    font-size: 0.8125em; 
+  }
 }
