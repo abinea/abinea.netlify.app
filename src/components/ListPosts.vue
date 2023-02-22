@@ -36,7 +36,7 @@ const isSameYear = (a: Date | string | number, b: Date | string | number) => a &
 
     <template v-for="route, idx in posts" :key="route.path">
       <div v-if="!isSameYear(route.date, posts[idx - 1]?.date)" relative h20 pointer-events-none>
-        <span text-6em op10 absolute left--3rem font-bold>{{ getYear(route.date) }}</span>
+        <span text-6em op10 absolute top-2rem left--3rem font-bold>{{ getYear(route.date) }}</span>
       </div>
       <Link class="item block font-normal mb-6 mt-2 no-underline" :to="route.path">
       <li class="no-underline">
