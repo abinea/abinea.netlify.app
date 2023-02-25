@@ -2,6 +2,7 @@
 title: wsl2+Ubuntu20.04环境配置
 date: 2022-04-14T13:48:45.000+08:00
 tag: Linux
+duration: 7min
 ---
 
 ### 安装 Ubuntu20.04 子系统
