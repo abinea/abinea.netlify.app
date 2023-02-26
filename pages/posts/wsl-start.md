@@ -250,3 +250,21 @@ nvm use 16.14.0
 Windows 上可以使用 Vscode 连接到我们安装的 WSL，需要安装 Remote - WSL 插件。Remote 三件套提供给 Vscode 强大的远程开发能力，除了 Remote-WSL 是用来连接本地 WSL，Remote-SSH 是用来连接远程服务器的，而 Remote-Container 则是连接管理 Docker 容器。
 
 安装完成后，重新启动 Vscode，左下角会出现一个角标高亮图标，点击后等待插件在 WSL 中安装 server 就可以在 Vscode 打开一个使用 WSL 的窗口了！
+
+### WSL2 回收存储
+
+ext4.vhdx 磁盘空间会根据加载的数据自动增长，但是无法自动回收。下面是手动回收的步骤：
+
+```powershell
+# 关闭正在使用的 WSL
+wsl --shutdown
+# 运行 diskpart 释放空间
+diskpart
+
+# 选择虚拟机文件执行回收
+select vdisk file="D:\WSL\docker-desktop-data\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit
+```
